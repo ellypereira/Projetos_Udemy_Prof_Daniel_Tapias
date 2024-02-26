@@ -1,0 +1,54 @@
+body{
+    background-color: #3c2848;
+    color: rgb(8, 7, 1);
+    width: 80%;
+    margin: auto;
+
+}
+
+.nome1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #030010;
+    border: 30px solid transparent;
+    font-size: 40px;
+    background-color: #ac8ece;
+    border-image: url(https://png.pngtree.com/png-clipart/20210720/ourmid/pngtree-neon-gradient-rapid-round-border-creative-png-image_3600399.jpg);
+}
+
+.sobre{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.txtcolorido{
+    color: #e30bee;
+}
+
+h2{
+    font-size: 36px;
+    background-color: #995f9d;
+    color: #311432;
+    border-style: solid;
+    border: 3px solid #7c41ac;
+    border-bottom: 3px solid #0ad8a5;
+    padding: 13px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-position:inside;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
