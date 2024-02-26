@@ -14,11 +14,15 @@ body{
     font-size: 40px;
     background-color: #ac8ece;
     border-image: url(https://png.pngtree.com/png-clipart/20210720/ourmid/pngtree-neon-gradient-rapid-round-border-creative-png-image_3600399.jpg);
+    margin-bottom: 0;
 }
 
 .sobre{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 0);
+    margin-top: 0;
+    background-color: #a879df;
 }
 
 .txtcolorido{
@@ -51,4 +55,26 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a {
+    background-color:#7c41ac;
+    padding: 15px;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: #030010;
+    color: red;
+    text-decoration: none;
 }
