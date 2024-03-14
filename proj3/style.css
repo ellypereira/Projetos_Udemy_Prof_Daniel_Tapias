@@ -85,8 +85,17 @@ article h2{
 .btn{
     background-color: #cdc7c3;
     display: block;
-    padding: 12px;
+    padding: 12px 16px;
     border-radius: 5px;
     margin-left: auto;
-    width: 90px;
+    width: fit-content;
+}
+
+.rodape{
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
 }
