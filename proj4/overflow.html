@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+
+        body {
+            margin-bottom: 500px;
+        }
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255, 0, 0, .5);
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .item{
+            width: fit-content;
+        }
+
+        .min-content .item{
+            width: min-content;
+        }
+
+        .max-content .item{
+            width: max-content;
+        }
+
+        .overflow-hidden{
+            overflow:hidden;
+        }
+
+        .overflow-scroll{
+            overflow: scroll;
+        }
+
+        overflow-auto{
+            overflow: auto;
+        }
+
+        .overflow-x-hidden{
+            overflow-x: hidden;
+        }
+
+        .overflow-y-hidden{
+            overflow-y: hidden;
+        }
+
+        .overflow-x-scroll{
+            overflow: scroll;
+        }
+
+        .overflow-visible{
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="container fit-content overflow-auto">
+
+        <div class="item">lorem</div>
+
+        <div  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ad?</div>
+
+        <div  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum qui dolor. Exercitationem quidem unde id mollitia. Mollitia voluptates, eveniet cumque quaerat deserunt provident sint.</div>
+
+    </div>
+
+    <div class="container min-content overflow-scroll">
+        
+        <div class="item">lorem</div>
+
+        <div  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ad?</div>
+
+        <div  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum qui dolor. Exercitationem quidem unde id mollitia. Mollitia voluptates, eveniet cumque quaerat deserunt provident sint.</div>
+
+        <div  class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus earum quod praesentium officiis voluptate. Similique necessitatibus itaque neque? Commodi voluptates consequuntur neque accusantium sint rerum beatae. Fugiat doloribus et eaque pariatur exercitationem perspiciatis explicabo autem sequi nostrum sint, atque commodi rerum, enim debitis in quis tempora quos ipsa laudantium doloremque molestiae cum? Quam explicabo tempora incidunt nemo excepturi nam? Ipsa sit, deserunt eveniet aut officia quibusdam libero optio neque eius? Omnis alias distinctio repellat quia?</div>
+    </div>
+
+    <div class="container max-content overflow-auto">
+        
+        <div class="item">lorem</div>
+
+        <div  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ad?</div>
+
+        <div  class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorum qui dolor. Exercitationem quidem unde id mollitia. Mollitia voluptates, eveniet cumque quaerat deserunt provident sint.</div>
+
+        <div  class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus earum quod praesentium officiis voluptate. Similique necessitatibus itaque neque? Commodi voluptates consequuntur neque accusantium sint rerum beatae. Fugiat doloribus et eaque pariatur exercitationem perspiciatis explicabo autem sequi nostrum sint, atque commodi rerum, enim debitis in quis tempora quos ipsa laudantium doloremque molestiae cum? Quam explicabo tempora incidunt nemo excepturi nam? Ipsa sit, deserunt eveniet aut officia quibusdam libero optio neque eius? Omnis alias distinctio repellat quia?</div>
+    </div>
+</body>
+</html>
